@@ -1,0 +1,31 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #6555;
+}
+.boxes{
+    border: 2px solid red;
+    height: 82vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.box{
+    margin: 2px;
+    height: 20vh;
+    width: 20vw;
+    border: 2px solid black;
+  
+}
+@media screen and (max-width:455px){
+    .box{
+        width: 50vw;
+        background-color: orange;
+    }
+    .boxes{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

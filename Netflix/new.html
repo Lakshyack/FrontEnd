@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 70vw;
+        height: 80vh;
+        display: flex;
+        background-color: black;
+
+    }
+    .text{
+        color: white;
+        font-size: 30px;
+    }
+    .img{
+        position: relative;
+       
+    }
+    .img img{
+        position: relative;
+        z-index: 20;
+    }
+    .img video{
+        position: absolute;
+        top: 99px;
+        right: 90px;
+        width: 467px;
+        
+    }
+   
+
+</style>
+<body>
+    <div class="container">
+        <div class="text">
+            Hey this is Netflix site.
+        </div>
+        <div class="img">
+            <img src="img/5.png" alt="">
+            <video src="Video/video-tv-in-0819.mp4" autoplay loop></video>
+        </div>
+    </div>
+</body>
+</html>

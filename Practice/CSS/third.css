@@ -1,0 +1,63 @@
+.container{
+    background-color: rgb(207, 98, 98);
+    height: 100vh;
+    width: 100vw;
+
+}
+.box{
+    position: relative;
+    top: 10px;
+
+    background-color: rgb(50, 54, 54);
+    width: 400px;
+    height: 400px;
+    color: rgb(223, 205, 43);  
+    font-size: 50px;
+    background-color: rgb(223, 205, 43);  
+    border: 5px solid black; 
+
+}
+.box:hover{
+    background-color: rgb(134, 50, 134);
+    transform: translate(30vw,8vh) rotate(1turn);
+    border-radius: 50%;
+    transition-property: transform,background-color,border-radius;
+    transition-duration: 6s;
+    transition-timing-function: ease;
+    transition-delay: 0.4s;
+}
+.box:hover::after{
+    position: absolute;
+    content: 'Hello Developer';
+    top: 170px;
+    left: 40px;
+    color: aqua;
+    opacity: 1;
+    transform: rotate(1turn);
+    transition-property: content,color;
+    transition-duration: 6s;
+    transition-timing-function: ease;
+    transition-delay: 4s;
+}
+.DD{
+    margin-left: 30%;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    transition: background-color 6s ease 4s;
+}

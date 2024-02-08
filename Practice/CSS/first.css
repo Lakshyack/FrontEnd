@@ -1,0 +1,114 @@
+body{
+    background: url('img/img.png');
+}
+.container{
+   
+    padding-top: 10px;
+    padding-bottom:0;
+    
+    
+}
+.main_heading{
+    background-color: rgb(199, 214, 228);
+    color: blue;
+    padding-left: 20px;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    font-size: 70px;
+    border: #000 5px solid ;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+#Topic{
+    padding-left: 6px;
+    padding-top:12px ;
+    padding-bottom:10px ;
+    margin-right: 630px;
+    color: rgb(175, 45, 226);
+    border: #c45db6b6 5px solid ;
+
+    border-radius: 15px;
+}
+.topic_container ul{
+    /* list-style: none; */
+    padding: 45;
+    
+    display: flex;
+}
+.topic_container ul li
+{ border-radius: 80px;
+    list-style-type: decimal;
+     padding: 4px;
+     font-size: 20px;
+    margin-right: 30px;
+    color: blue;
+    border: 2px solid ;
+}
+.Selector h3{
+    border: 3px solid ;
+    margin-left: 20px;
+    margin-right: 200px;
+    padding: 3px 2px 3px 2px;
+    border-radius: 10px;
+}
+
+.heart{
+    background-color: aliceblue;
+}
+.boxModel{
+    display: flex;
+
+}
+.box{
+    margin-top: 0px;
+}
+.box h1{
+    color: aqua;
+}
+.margin{
+    background-color: aliceblue;
+    padding: 20px;
+    border: 2px solid red;
+}
+.border{
+    background-color: red;
+    border: 10px solid red;
+    /* padding: 10px; */
+}
+.padding{
+    background-color: rgb(197, 25, 154);
+    border: 2px solid red;
+    padding: 8px;
+}
+.content{
+    background-color:  rgb(197, 25, 154);
+    border: 2px solid red;
+    padding: 5px;
+}
+.text2, .text3, .text1{
+    padding: 0;
+    margin: 0;
+}
+
+.conn{
+    border: 2px solid red;
+    height: 20001px;
+    position: relative;
+}
+.boxx{
+    border: 2px solid red;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    
+}
+.conn #one {
+    color: #bbff3de3;
+    border: 2px solid red;
+    position: absolute;
+    top: 29px;
+    left: 20px;
+
+   
+}
