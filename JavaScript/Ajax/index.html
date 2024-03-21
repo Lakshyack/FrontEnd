@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOme</title>
+
+    <!-- <script>
+            function loadAboutInformation(){
+               var request =  new XMLHttpRequest();
+
+               request.open("GET","about.html");
+
+               request.onreadystatechange= function(){
+                if(this.readyState == 4 && this.status == 200){
+                    //complete and successfull
+                    console.log(this.responseText);
+                    document.getElementById("container").innerHTML = this.responseText;
+                }
+               }
+               request.send();
+            }
+
+    </script> -->
+</head>
+<body>
+    <h2>Welcome to home page</h2>
+    <h2>We are learning ajax</h2>
+
+
+    <h1><a href="about.html">Click for go to About page </a></h1>
+
+    <button onclick="loadAboutInformation()">Load about page</button>
+    <div id="container">
+        
+    </div>
+
+
+    <button id="myID"> jquery load </button>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+
+    <script>
+        $(document).ready(function(){
+              //document is ready
+
+              $("#myID").click(function(){
+                $.get("about.html",function(data){
+                    console.log("jquery data")
+                    console.log(data);
+                });
+              });
+        });
+        
+    </script>
+</body>
+</html>
